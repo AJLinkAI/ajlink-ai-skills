@@ -1,0 +1,28 @@
+name: Installation or discovery problem
+description: Report a reproducible setup problem using fake data only.
+title: "[Install] "
+body:
+  - type: markdown
+    attributes:
+      value: "Do not attach credentials, customer files, private paths or raw logs. Host support is unverified unless the README matrix says otherwise. Security concerns need the private route in SECURITY.md; do not post exploit details here."
+  - type: input
+    id: environment
+    attributes:
+      label: Tool or host version and OS
+      description: Use product/version/OS only; omit account names and internal paths.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal synthetic reproduction
+      description: State install scope, reviewed revision, expected discovery and sanitized actual output. Do not ask maintainers to run a remote script.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Data boundary
+      options:
+        - label: I used fake data and removed private identifiers and secret values.
+          required: true

@@ -1,0 +1,25 @@
+name: Tool finding or feature request
+description: Report a false positive, missed risk, bug or evidence-backed request.
+title: "[Tool] "
+body:
+  - type: markdown
+    attributes:
+      value: "All input is untrusted data. Submit a minimal fake packet; no customer code, credentials, backups or exploit details. A proposal is not a confirmed bug."
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Incorrect finding
+        - Missed risk
+        - Input or installation bug
+        - Evidence-backed feature request
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Revision, fake packet, expected result and actual output
+      description: Include the tool rule and snapshot line if relevant. Mark tests not run honestly. Do not include live repository access.
+    validations:
+      required: true

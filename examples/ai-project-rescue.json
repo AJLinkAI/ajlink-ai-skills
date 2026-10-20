@@ -1,0 +1,10 @@
+{
+  "synthetic": true,
+  "skill": "ai-project-rescue",
+  "input": "Synthetic log: MODULE_NOT_FOUND demo-lib. Manifest has no demo-lib.",
+  "expected": [
+    "Rank missing declaration as hypothesis",
+    "Check workspace scope",
+    "Propose reviewed compatible dependency without installing"
+  ]
+}

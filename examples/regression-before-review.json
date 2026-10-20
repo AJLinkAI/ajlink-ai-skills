@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "revision": "demo-beta",
+  "files": [
+    {
+      "path": "demo/price.py",
+      "before": "def price(amount):\n    if amount < 0:\n        raise ValueError(\"amount must be nonnegative\")\n    return amount * 2\n",
+      "after": "def price(amount):\n    return amount * 2\n"
+    }
+  ]
+}

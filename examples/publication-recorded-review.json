@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "revision": "demo-beta",
+  "files": [
+    {
+      "path": "README.md",
+      "text": "Synthetic demo project."
+    },
+    {
+      "path": "LICENSE",
+      "text": "SYNTHETIC LICENSE TEXT FOR EVALUATION ONLY. No real license grant."
+    },
+    {
+      "path": "SECURITY.md",
+      "text": "Synthetic private reporting route fixture, not an actual contact."
+    },
+    {
+      "path": ".gitignore",
+      "text": ".env\n*.key\n"
+    }
+  ],
+  "gates": {
+    "license_approved": {
+      "status": "PASS",
+      "revision": "demo-beta",
+      "tree_digest": "5509b108d1279f98fa74b8c501c5dca86c3923ade003733cfee24c71d59cd9af",
+      "reference": "evidence/fake-review.json"
+    },
+    "ownership_permissions": {
+      "status": "PASS",
+      "revision": "demo-beta",
+      "tree_digest": "5509b108d1279f98fa74b8c501c5dca86c3923ade003733cfee24c71d59cd9af",
+      "reference": "evidence/fake-review.json"
+    },
+    "confidential_data_review": {
+      "status": "PASS",
+      "revision": "demo-beta",
+      "tree_digest": "5509b108d1279f98fa74b8c501c5dca86c3923ade003733cfee24c71d59cd9af",
+      "reference": "evidence/fake-review.json"
+    },
+    "security_reporting": {
+      "status": "PASS",
+      "revision": "demo-beta",
+      "tree_digest": "5509b108d1279f98fa74b8c501c5dca86c3923ade003733cfee24c71d59cd9af",
+      "reference": "evidence/fake-review.json"
+    },
+    "tests": {
+      "status": "PASS",
+      "revision": "demo-beta",
+      "tree_digest": "5509b108d1279f98fa74b8c501c5dca86c3923ade003733cfee24c71d59cd9af",
+      "reference": "evidence/fake-review.json"
+    },
+    "host_acceptance": {
+      "status": "PASS",
+      "revision": "demo-beta",
+      "tree_digest": "5509b108d1279f98fa74b8c501c5dca86c3923ade003733cfee24c71d59cd9af",
+      "reference": "evidence/fake-review.json"
+    },
+    "final_publication_approval": {
+      "status": "PASS",
+      "revision": "demo-beta",
+      "tree_digest": "5509b108d1279f98fa74b8c501c5dca86c3923ade003733cfee24c71d59cd9af",
+      "reference": "evidence/fake-review.json"
+    }
+  }
+}

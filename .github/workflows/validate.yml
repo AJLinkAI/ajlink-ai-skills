@@ -1,0 +1,26 @@
+name: Manual candidate validation
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      PUBLIC_REPOSITORY: ${{ github.repository }}
+      REVIEWED_REVISION: ${{ github.sha }}
+    steps:
+      - name: Read public candidate at selected revision
+        shell: bash
+        run: |
+          set -euo pipefail
+          git init candidate
+          git -C candidate remote add origin "https://github.com/${PUBLIC_REPOSITORY}.git"
+          git -C candidate fetch --no-tags origin "$REVIEWED_REVISION"
+          git -C candidate checkout --detach FETCH_HEAD
+      - name: Validate without dependencies or network tools
+        working-directory: candidate
+        run: |
+          python3 -B -m unittest discover -s tests -v
+          python3 -B tools/audit.py

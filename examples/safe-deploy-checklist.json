@@ -1,0 +1,11 @@
+{
+  "synthetic": true,
+  "skill": "safe-deploy-checklist",
+  "input": "Synthetic release drops a column required by old app.",
+  "expected": [
+    "FAIL compatibility",
+    "BLOCKED",
+    "Explain application rollback cannot restore data",
+    "Propose expand/contract"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "skill": "thai-ai-copy-humanizer",
+  "input": "ช่วยปรับให้ลื่นไหล: เครื่องมือนี้อาจช่วยลดเวลาได้ประมาณ 10% ในบางงาน",
+  "expected": [
+    "Preserve อาจ, ประมาณ, 10% and บางงาน",
+    "Improve fluency only"
+  ]
+}

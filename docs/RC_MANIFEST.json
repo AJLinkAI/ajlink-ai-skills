@@ -1,0 +1,272 @@
+{
+  "candidate": "0.1.0-rc.1",
+  "date": "2026-10-20",
+  "decision": "NO-GO",
+  "publishable": false,
+  "license_approved": false,
+  "agent_host_accepted": false,
+  "explicit_publication_approval": false,
+  "scope": "Public-content allowlist only; excludes itself, maintainer-only records, local evidence, labs, Git internals and historical host diagnostics. Not publication authority. SHA-256 hashes cover exact Git index blob bytes, including Git line-ending normalization.",
+  "files": [
+    {
+      "file": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "1f103c6a9dd07cd13a9a6f17ace6b813f47747eb9cb7e00488cb2073caaf91bb"
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/install.yml",
+      "sha256": "13feb8608bfda05c8280a514a3bba8a9298d446610e02cc79e07874cd4985a67"
+    },
+    {
+      "file": ".github/ISSUE_TEMPLATE/tool-report.yml",
+      "sha256": "25cc8f9b6c5c9a2c1715cee9735c836bd1d0f57aff1bdebbf0b3405a7b023d59"
+    },
+    {
+      "file": ".github/workflows/validate.yml",
+      "sha256": "760f23beefbe68c6f7a977d6f7fb0cfad3cf43d5ce316b629b5503236abec5cd"
+    },
+    {
+      "file": ".gitignore",
+      "sha256": "d872aec6917ee2059344cf46ef8ce249fc2893496c0fa966c58b6f02462668be"
+    },
+    {
+      "file": "CHANGELOG.md",
+      "sha256": "255a14483729ed507dd063439d62ac19c40f77d8d3f04f546ee7d5c1270d9ba3"
+    },
+    {
+      "file": "CONTRIBUTING.md",
+      "sha256": "078668b8ff8aed981ce2f35e8d68e60c06f4f01bb6b71223e5f02088989e07ec"
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "db9f24408a7c9a6b6ebe8a73c2a5847b89bb25541d853f8c78081fd9c2892bf2"
+    },
+    {
+      "file": "README.md",
+      "sha256": "e9be578d99619ba64f0e58d6d0a9ff07e5528a74f6d869475cbe40c817dac8bc"
+    },
+    {
+      "file": "README.th.md",
+      "sha256": "3d90e16a2614123e24a1ae1cc07f7c6c7328cd6c5c02fb59c4ac03708178a50d"
+    },
+    {
+      "file": "RELEASE_NOTES.md",
+      "sha256": "0687dcc6aaa8c7610286b52fd9093c87462adc648ae3a47a781b2fba98a43229"
+    },
+    {
+      "file": "SECURITY.md",
+      "sha256": "5247475cc8df0bb4d176b64929a1252a1a5a2974d1393316f948c6b68e57e1c0"
+    },
+    {
+      "file": "assets/social-card.svg",
+      "sha256": "030db4990c015035ffb388de8045ee94b14f2d6e57457de49b2d48b5b12d41d9"
+    },
+    {
+      "file": "assets/social-copy.md",
+      "sha256": "652e01ee9df5360e49b42879caf79c9793fc4a99dee3bea93bcb3582a46574aa"
+    },
+    {
+      "file": "docs/ARCHITECTURE.md",
+      "sha256": "3f8f42628492a8b5c184ff0092cee169a3bf9b509794b531a74ec2ea14fd9bd1"
+    },
+    {
+      "file": "docs/COMMUNITY_LAUNCH_PLAN.md",
+      "sha256": "e328f7540f096767304d83dc3e93aa6f48c19e03461ffce8aab6ec14f6fe91f7"
+    },
+    {
+      "file": "docs/DEMO_EVIDENCE.md",
+      "sha256": "3ea300203c4c3189fe3815285f91686f31df921e38694f23ee6d3cfe7d3cdc80"
+    },
+    {
+      "file": "docs/FINAL_RELEASE_GATE.md",
+      "sha256": "0d90d49908b2e639f1d52c8b5d6dca3c41d80d6db3328b94b2eef6b65d1b9590"
+    },
+    {
+      "file": "docs/FREE_VS_COMMERCIAL_BOUNDARY.md",
+      "sha256": "40f6045fc9a7b608211c2b69dfec09156399bed099281f0f0a8123e86ddede13"
+    },
+    {
+      "file": "docs/GITHUB_MARKET_GAPS.md",
+      "sha256": "ada85acce87bdd0214c696cd85154e62bceb1e526102ce7637511f80a2e578a7"
+    },
+    {
+      "file": "docs/GITHUB_METADATA.md",
+      "sha256": "34352e44dd6fbbcd55924f977698cdd30e1a0ebac4759f15b3ca020614213cbb"
+    },
+    {
+      "file": "docs/HANDOVER.md",
+      "sha256": "7e22b6dce0af1ccd6cfd213b1a0bb6181d0d31b3e3e46b510ffcf13585d837a5"
+    },
+    {
+      "file": "docs/HOST_ACCEPTANCE.md",
+      "sha256": "f66cbec75dc579adc225435a32d81a31c1cb0bc8810f2509bfe9434651a20881"
+    },
+    {
+      "file": "docs/INSTALLATION.md",
+      "sha256": "3ed15ebf7b1959ab7548c24539d5af7ad3bfacd5bed6584fe2a49398d29efcd4"
+    },
+    {
+      "file": "docs/LAUNCH_PLAN.md",
+      "sha256": "e9800c4e09cf4cf1c6b0a49e7d1f98464828ccbeb37df4ec4f8a988ae51b3c39"
+    },
+    {
+      "file": "docs/LICENSE_REVIEW.md",
+      "sha256": "2b6b3e68802e3e804800f53b8d866bc433ff5fad1c46dbb4cac001300dfd31e0"
+    },
+    {
+      "file": "docs/MANUAL_ACCEPTANCE_SUITE.md",
+      "sha256": "e15518c1982e529c55fc0676303583f14fa13ba421e75c6189e0ddab322db498"
+    },
+    {
+      "file": "docs/OPEN_SOURCE_PRODUCT_STRATEGY.md",
+      "sha256": "35a08ffc9c0a5f273ff0fa211f59be7f4ee2eea80c5272d8263d0d2664d061b4"
+    },
+    {
+      "file": "docs/PRIVATE_VULNERABILITY_REPORTING.md",
+      "sha256": "d912f2e6f259642f3bd0f41c8089e58bb4c0846726720e2528c6981e13a5f21c"
+    },
+    {
+      "file": "docs/PROFILE_README.md",
+      "sha256": "9b3dd2c7cbf5b0705c87104d88bab8b52fa547c13eb47cd1054260f8d002e5f6"
+    },
+    {
+      "file": "docs/PROVENANCE.md",
+      "sha256": "f6807539ef7d12db3799151bad0876ee3b0f7be7394914f40144c639b0000616"
+    },
+    {
+      "file": "docs/PUBLICATION_CHECKLIST.md",
+      "sha256": "1ea9d3c25317ce1e4c13be2063d8b5296828b55f12cfe62bb2ed1d437dbd8df8"
+    },
+    {
+      "file": "docs/QUICK_START.md",
+      "sha256": "929c5cbb0e53877451c02bee073eb80dbc8c2e81f62ebf4a0eb27e527aba4bba"
+    },
+    {
+      "file": "docs/RELEASE_CHECKLIST.md",
+      "sha256": "5ad41dd6b7cf21ab3a3b99e0381ac5457a7e08602a38eac79b583c1674b52fdf"
+    },
+    {
+      "file": "docs/ROADMAP.md",
+      "sha256": "8306c8dcf6808e22bc3e8f5e417892ff1f88c695bcd533f90fbf8e3f2956621b"
+    },
+    {
+      "file": "docs/SECURITY_ASSESSMENT.md",
+      "sha256": "49ac8492db40ba2db31a1fd86905607d7aee232d875111b7e6f72cf4ec089643"
+    },
+    {
+      "file": "docs/STAR_GROWTH_PLAN.md",
+      "sha256": "b02588e64386252b09243c52c0aba98bbce338111940f6862dd943c16bdc8bb1"
+    },
+    {
+      "file": "docs/TOOLS.md",
+      "sha256": "6c822d2cb24ac921b41f0004b1877edc6b1c07a82f9ee72a554767acd16eaf14"
+    },
+    {
+      "file": "examples/ai-project-rescue.json",
+      "sha256": "f882845b091fa6211b932983dad3da543d604156d9f01554bc62e6092f3f8428"
+    },
+    {
+      "file": "examples/publication-blocked.json",
+      "sha256": "3e511d8a7ecd99ad71314fc7ba0f73fefaf6671074946182b68083aa6d1e56dd"
+    },
+    {
+      "file": "examples/publication-recorded-review.json",
+      "sha256": "68ff79dd2c33a8cb8e16024c0903ae3c5bdc5d2f93780e6614a64e197f4ea50c"
+    },
+    {
+      "file": "examples/regression-after-review.json",
+      "sha256": "7c0ca3024863941e75a629149625edd422b42abc428be950e02a3d376eaf7b38"
+    },
+    {
+      "file": "examples/regression-before-review.json",
+      "sha256": "5bf8406e4d2c9c26e4130b35719c7f8eaca8475c854a0bb81951ac0cf34bbea8"
+    },
+    {
+      "file": "examples/safe-deploy-checklist.json",
+      "sha256": "f8af32d9597a4012f4f30bd170a19ad1fb70668c8381a0d0857d16dd1cbf5a9c"
+    },
+    {
+      "file": "examples/thai-ai-copy-humanizer.json",
+      "sha256": "7f9dcbc9dcde7388a715c1f4f95675066e29cda933a6b6ffe20f5a1fe7395d35"
+    },
+    {
+      "file": "skills/ai-project-rescue/GUIDE.md",
+      "sha256": "844d5f64091e0240e109794507c46203d26da39b5f20d4e6417b071368700c53"
+    },
+    {
+      "file": "skills/ai-project-rescue/GUIDE.th.md",
+      "sha256": "ff0220207e5756d19905cf5ee4f9183298479b35077ff74322f40f32ea82285d"
+    },
+    {
+      "file": "skills/ai-project-rescue/SKILL.md",
+      "sha256": "ec926fdec6678c422ee836855522647a0450bf02df592f9bbd2ae562a19d2dae"
+    },
+    {
+      "file": "skills/ai-project-rescue/evaluations.json",
+      "sha256": "dc05e5ab7e83f4beb6e5dcd69142c5cc21a4bf20092ab54ef5a40035e18ac4ae"
+    },
+    {
+      "file": "skills/safe-deploy-checklist/GUIDE.md",
+      "sha256": "ed741e5c76c26ecea83b75139a1b13a4c82092491ede437900705f8f44f73c3b"
+    },
+    {
+      "file": "skills/safe-deploy-checklist/GUIDE.th.md",
+      "sha256": "a421e22d4b72a37e6eba0bca03fa2150406fcd2d7a5a4506d6b3189c3d203653"
+    },
+    {
+      "file": "skills/safe-deploy-checklist/SKILL.md",
+      "sha256": "e463ca9dbf6d8de7acd37e44a5fc30acdf61fe69916e73327ccb270ffffe69bd"
+    },
+    {
+      "file": "skills/safe-deploy-checklist/evaluations.json",
+      "sha256": "7cd5ef8ce11813431080cbec8235f72f0e368a7345a3aa0b0a40655c1191a36a"
+    },
+    {
+      "file": "skills/thai-ai-copy-humanizer/GUIDE.md",
+      "sha256": "1085b18d65fec5c840b7cf96a8c2229ad95818651ae3f4c86b83be844f33aa03"
+    },
+    {
+      "file": "skills/thai-ai-copy-humanizer/GUIDE.th.md",
+      "sha256": "a1c9187b078742f7bf3ac9f2a6748b3fc8642dd8f8a6019d346e94fb7a603855"
+    },
+    {
+      "file": "skills/thai-ai-copy-humanizer/SKILL.md",
+      "sha256": "a6540369ee6b71769568caecd14568d333fe07671fec843189484e7eefa0a121"
+    },
+    {
+      "file": "skills/thai-ai-copy-humanizer/evaluations.json",
+      "sha256": "11f7cbb5629f987aebe739408b74410f94d44adc7cda4877a272e041c68d834b"
+    },
+    {
+      "file": "tests/fixtures/publisher-cases.json",
+      "sha256": "69c30601ead2e63fc9c328b972f2264574539c71764de5a8a30c8a4a9843da9d"
+    },
+    {
+      "file": "tests/fixtures/regression-cases.json",
+      "sha256": "8fd28718d6dd768602e1aa8364cbffe00043f3443bc4a9a95b209465817de1e8"
+    },
+    {
+      "file": "tests/test_library.py",
+      "sha256": "4d80963226cfb873833ac0c7187aa3123bac89a499e218df1ed41e933eefde1e"
+    },
+    {
+      "file": "tests/test_survival_tools.py",
+      "sha256": "e609f730d0a7146dcf09959482593ad31fe767f00d4f6bc6584c7a7a9ecdcc11"
+    },
+    {
+      "file": "tools/audit.py",
+      "sha256": "484c8f103b361bef129b087ca0dad9c6820d582c67aa1a943addf6c0f3c97b11"
+    },
+    {
+      "file": "tools/regression_guard.py",
+      "sha256": "710be366860da230086b7aa959a549233cafd5f7e939a7eb3999681b4ed2a7a3"
+    },
+    {
+      "file": "tools/review_common.py",
+      "sha256": "70cee0b93971c5541c7affcbf53d15ec2780d215646c6dd115b68958f965894a"
+    },
+    {
+      "file": "tools/safe_github_publisher.py",
+      "sha256": "78572b38ffd35359b7d9cb67431ef080ff5c94caa6bb641de853d7ed9d95f442"
+    }
+  ]
+}
